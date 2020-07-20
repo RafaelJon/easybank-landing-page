@@ -1,0 +1,49 @@
+#Footer-container {
+  position: sticky;
+  width: 100%;
+  background-color: hsl(233, 26%, 24%);
+  z-index: 0;
+}
+
+#Footer {
+  width: 80%;
+  max-width: 1440px;
+  padding: 40px 0;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+#Footer-main {
+  justify-content: space-between;
+}
+
+#Share-container {
+  justify-content: space-between;
+}
+
+#Footer-detail {
+  width: 60%;
+  max-width: 750px;
+  justify-content: space-between;
+}
+
+#Footer-request {
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  align-content: flex-start;
+}
+
+#Footer-request div {
+  font-size: 14px;
+}
+
+.footer-content {
+  margin: 0 5px;
+}
+
+.footer-content p {
+  font-size: 14px;
+  color: hsl(220, 16%, 96%);
+  margin: 8px 0;
+}

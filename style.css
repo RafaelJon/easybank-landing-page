@@ -1,0 +1,60 @@
+* {
+  font-family: "Public Sans", sans-serif, Arial, Helvetica;
+  font-size: 18px;
+  color: hsl(233, 8%, 62%);
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+}
+
+button {
+  padding: 10px 25px;
+  border-radius: 23px;
+  font-size: 13px;
+  border: none;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  font-weight: 700;
+  background: linear-gradient(
+    115deg,
+    rgba(112, 251, 50, 1) 0%,
+    rgba(0, 212, 255, 1) 65%
+  );
+}
+
+button:active {
+  background: linear-gradient(
+    115deg,
+    rgba(112, 251, 50, 0.5) 0%,
+    rgba(0, 212, 255, 0.5) 65%
+  );
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+}
+
+.attribution {
+  position: fixed;
+  z-index: 15;
+  bottom: 0;
+  width: 100%;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  font-size: 11px;
+  color: hsl(228, 45%, 44%);
+}

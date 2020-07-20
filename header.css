@@ -1,0 +1,40 @@
+#Header-container {
+  background-color: hsl(0, 0%, 100%);
+  position: sticky;
+  z-index: 10;
+}
+
+#Header {
+  width: 80%;
+  max-width: 1440px;
+  justify-content: space-between;
+  margin: auto;
+  z-index: 10;
+}
+
+#Logo {
+  margin: auto;
+}
+
+#Header a {
+  text-decoration: none;
+  margin: 0 15px;
+  border-bottom: 3px solid black;
+  border-color: white;
+  padding: 30px 0;
+}
+
+#Header a:hover {
+  color: hsl(233, 26%, 24%);
+  border-bottom: 3px solid;
+  border-image-source: linear-gradient(
+    115deg,
+    rgba(112, 251, 50, 1) 0%,
+    rgba(0, 212, 255, 1) 65%
+  );
+  border-image-slice: 1;
+}
+
+#Header button {
+  margin: auto;
+}
