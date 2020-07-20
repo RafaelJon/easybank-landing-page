@@ -41,13 +41,15 @@
   margin: 0;
 }
 
-p.latest-item-title{
+p.latest-item-title {
   font-size: 20px;
   color: hsl(233, 26%, 24%);
   margin: 15px 0;
   cursor: pointer;
+  transition: 0.3s linear;
 }
 
-p.latest-item-title:hover{
-    color: hsl(136, 65%, 51%);
+p.latest-item-title:hover {
+  color: hsl(136, 65%, 51%);
+  transition: 0.3s linear;
 }

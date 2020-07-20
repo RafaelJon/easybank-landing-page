@@ -28,8 +28,8 @@ button {
 button:active {
   background: linear-gradient(
     115deg,
-    rgba(112, 251, 50, 0.5) 0%,
-    rgba(0, 212, 255, 0.5) 65%
+    rgb(165, 255, 124) 0%,
+    rgb(114, 232, 255) 65%
   );
 }
 

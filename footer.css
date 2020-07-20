@@ -42,8 +42,23 @@
   margin: 0 5px;
 }
 
+#Share-container > svg >path{
+    transition: 0.3s linear;
+}
+
+#Share-container > svg:hover path {
+  fill: hsl(136, 65%, 51%);
+  transition: 0.3s linear;
+}
+
 .footer-content p {
   font-size: 14px;
   color: hsl(220, 16%, 96%);
   margin: 8px 0;
+  transition: 0.3s linear;
+}
+
+.footer-content p:hover {
+  color: hsl(136, 65%, 51%);
+  transition: 0.3s linear;
 }
