@@ -53,3 +53,22 @@ p.latest-item-title:hover {
   color: hsl(136, 65%, 51%);
   transition: 0.3s linear;
 }
+
+@media screen and (max-width:765px){
+  #Latest-header p{
+    text-align: center;
+  }
+
+  #Latest-item-container{
+    flex-direction: column;
+  }
+
+  .latest-item{
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .latest-image{
+    height: 250px;
+  }
+}

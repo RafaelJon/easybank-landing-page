@@ -9,7 +9,7 @@ body {
   margin: 0;
 }
 
-button {
+.request {
   padding: 10px 25px;
   border-radius: 23px;
   font-size: 13px;
@@ -25,7 +25,7 @@ button {
   );
 }
 
-button:active {
+.request:active {
   background: linear-gradient(
     115deg,
     rgb(165, 255, 124) 0%,

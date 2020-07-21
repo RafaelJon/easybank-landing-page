@@ -42,8 +42,8 @@
   margin: 0 5px;
 }
 
-#Share-container > svg >path{
-    transition: 0.3s linear;
+#Share-container > svg > path {
+  transition: 0.3s linear;
 }
 
 #Share-container > svg:hover path {
@@ -61,4 +61,35 @@
 .footer-content p:hover {
   color: hsl(136, 65%, 51%);
   transition: 0.3s linear;
+}
+
+@media screen and (max-width: 765px) {
+  #Footer {
+    flex-direction: column;
+  }
+
+  #Footer-detail{
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  #Footer-main{
+    margin: auto;
+  }
+
+  .footer-content p{
+    text-align: center;
+  }
+
+  #Footer-request{
+    align-items: unset;
+  }
+
+  #Footer-request div{
+    text-align: center;
+  }
+  
+  .request{
+    margin: auto;
+  }
 }
